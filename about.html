@@ -13,7 +13,7 @@
 <body>
     <nav class="navbar">
         <div class="logo">
-            <a href="index.html">DIANNE DE LEON</a>
+            <a href="index.html">Dianne De Leon</a>
         </div>
         <ul class="nav-links">
             <li><a href="index.html">Work,</a></li>
@@ -47,7 +47,7 @@
                 </div>
                 <div class="about-text-block">
                     <p>These days, when I’m not designing, I'm either doing yoga, caring for my rabbit Willow,
-                        <s>humbling myself</s> practicing wheel throwing, or just being out in the sun.
+                        <s>humbling myself by</s> practicing wheel throwing, or just being out in the sun.
                     </p>
                 </div>
             </div>
@@ -55,15 +55,11 @@
             <div class="about-image-container img-1">
                 <img src="Images/nyc.JPG" alt="NYC" class="about-placeholder">
             </div>
-
-            <div class="about-image-container img-2">
-                <img src="Images/dianne.JPG" alt="Dianne" class="about-placeholder">
-            </div>
         </section>
 
         <section class="contact-section" id="contact">
 
-            <p>Thank you for stopping by. If you'd like to chat, please connect with me.</p>
+            <p>Thank you for stopping by.<br>If you'd like to chat, please connect with me.</p>
             <div class="contact-links">
                 <a href="mailto:hello@example.com">
                     <span>Email</span>
@@ -119,7 +115,7 @@
             if (textColumn) {
                 const updateGradient = () => {
                     const rect = textColumn.getBoundingClientRect();
-                    const centerOffset = (window.innerHeight * 0.6) - rect.top;
+                    const centerOffset = (window.innerHeight * 0.48) - rect.top;
                     textColumn.style.setProperty('--center-offset', `${centerOffset}px`);
                 };
                 window.addEventListener('scroll', updateGradient, { passive: true });
